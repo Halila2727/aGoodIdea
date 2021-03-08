@@ -19,7 +19,7 @@ public class AMovingSpeech
     try {
         Thread.sleep(3000);
       } catch (InterruptedException ex) {
-        Thread.currentThread().interrupt();
+        Thread.currentThread().interrupt(); 
       }
     System.out.println("'Cause I've been blastin' and laughin' so long");
     try {
